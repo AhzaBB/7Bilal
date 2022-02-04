@@ -44,24 +44,24 @@ let namamuridArr = [
 ]
 let jabatanMuridArr = [
     'Bendahara<hr>Osis',
-    '-',
-    'Osis',
-    '-',
-    '-',
-    '-',
-    'Osis',
+    '-<hr>-',
+    '-<hr>Osis',
+    '-<hr>-',
+    '-<hr>-',
+    '-<hr>-',
+    '-<hr>Osis',
     'Sekretaris<hr>Osis',
-    '-',
-    '-',
+    '-<hr>-',
+    '-<hr>-',
     'Ketua Kelas<hr>Osis',
-    '-',
-    '-',
-    'Wakil Ketua Kelas',
-    '-',
-    'Wakil Ketua Osis',
-    '-',
-    '-',
-    'Osis'
+    '-<hr>-',
+    '-<hr>-',
+    'Wakil Ketua Kelas<hr>-',
+    '-<hr>-',
+    '-<hr>Wakil Ketua Osis',
+    '-<hr>-',
+    '-<hr>-',
+    '-<hr>Osis'
 ]
 let muridI = 0;
 
@@ -110,5 +110,4 @@ function update() {
     namaMurid.innerHTML = namamuridArr[muridI];
     setTimeout(update);
 }
-
 update()
