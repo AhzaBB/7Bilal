@@ -1,7 +1,9 @@
 html, body{
     margin: 0;
-    background-color: #333;
-    margin-bottom: 20px;
+    background: linear-gradient(45deg, #b6b6b6, #fff);
+}
+body{
+    margin-bottom: 50px;
 }
 *{
     font-family: 'Courier New', Courier, monospace, sans-serif;
@@ -9,15 +11,19 @@ html, body{
 }
 
 .title{
-    color: #d8d8d8;
+    color: #222;
     text-align: center;
     font-size: 4.2vmax;
 }
 
 .gallery{
+    border-top: 1vmin solid #4cb837;
+    border-right: 1vmin solid #99ff84;
+    border-bottom: 1vmin solid #99ff84;
+    border-left: 1vmin solid #4cb837;
     width: fit-content;
     margin: auto;
-    background-color: #d8d8d8;
+    background: linear-gradient(135deg, #99ff84, #4cb837);
     padding: 1rem;
     border-radius: 5vmin;
 }
@@ -26,6 +32,8 @@ html, body{
     font-size: 2.5vmax;
     background: none;
     border: none;
+    width: 4.5vmax;
+    height: 4.5vmax;
     border-radius: 1vmin;
     padding: .4rem;
 }
@@ -37,7 +45,10 @@ html, body{
     width: 70vmin;
     border-radius: 5vmin;
     display: block;
-    border: 5px solid #333;
+    border-top: 1vmin solid #4cb837;
+    border-right: 1vmin solid #99ff84;
+    border-bottom: 1vmin solid #99ff84;
+    border-left: 1vmin solid #4cb837;
 }
 #guru img, #murid img{
     width: initial;
@@ -58,7 +69,7 @@ html, body{
 }
 #jabatanMurid{
     font-size: 2.3vmax;
-    max-width: 20vmax;
+    max-width: 25vmax;
     margin: auto;
     display: block;
 }
